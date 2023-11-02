@@ -5,9 +5,11 @@ const Zadaca = () => {
     name: "Marko",
     surname: "Horvat",
   };
+
   const formatUser = (user) => {
     return `${user.name} ${user.surname}`;
   };
+
   return <p>Hello {formatUser(user)}</p>;
 };
 
