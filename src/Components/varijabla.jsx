@@ -2,8 +2,8 @@ import React from "react";
 
 const Varijabla = (props) => {
   // const user = "Ivan Horvat";
-  const { user } = props;
-
+  //   const { user } = props;
+  const user = props.user;
   const greetings = user.startsWith("Ivan") ? (
     <p>Hello Friend!</p>
   ) : (
